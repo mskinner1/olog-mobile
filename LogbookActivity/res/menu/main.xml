@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+        android:id="@+id/action_new"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/content_new"
+        android:title="@string/submit_lbl">
+    </item>
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_filter">
+    </item>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/navigation_refresh"
+        android:title="@string/action_refresh">
+    </item>
+    <item
+        android:id="@+id/nav_previous"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/navigation_previous_item"
+        android:title="@string/navigation_previous_item">
+    </item>
+    <item
+        android:id="@+id/nav_next"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/navigation_next_item"
+        android:title="@string/navigation_previous_item">
+    </item>
+</menu>
